@@ -84,7 +84,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 40px;
-  width: 146px;
+  width: auto;
   height: auto;
   margin-left: 0;
 }
@@ -149,12 +149,18 @@ ul {
 
 .hero {
   background: var(--first-color);
+  background-image: url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
 
 .hero-title {
+  width: 494px;
   margin-bottom: 48px;
   font-weight: 600;
   font-size: 56px;

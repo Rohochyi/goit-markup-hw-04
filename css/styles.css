@@ -152,7 +152,7 @@ ul {
   background-image: url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 
   text-align: center;
   padding-top: 188px;
@@ -160,9 +160,11 @@ ul {
 }
 
 .hero-title {
-  width: 494px;
+  width: 496px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 48px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -173,7 +175,7 @@ ul {
 
 .hero-btn {
   font-family: inherit;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
   align-items: center;

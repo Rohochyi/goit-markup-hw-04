@@ -152,14 +152,15 @@ ul {
   background-image: url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
 
 .hero-title {
-  width: 496px;
+  width: 494px;
   margin-bottom: 48px;
   font-weight: 600;
   font-size: 56px;
@@ -168,13 +169,11 @@ ul {
   letter-spacing: 0.02em;
   color: var(--second-color);
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-btn {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.19;
   align-items: center;
@@ -272,6 +271,8 @@ ul {
 .team-item {
   background: var(--second-color);
   border-radius: 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-image {

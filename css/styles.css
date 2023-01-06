@@ -347,6 +347,7 @@ ul {
   width: 360px;
   border: 1px solid var(--acent-color);
   margin-bottom: 48px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:nth-child(n + 7) {

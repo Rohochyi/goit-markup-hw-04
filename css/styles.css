@@ -226,9 +226,11 @@ ul {
 
 .feature-item {
   width: 264px;
+
 }
 
 .future-icon {
+  padding: 24px 100px;
 }
 
 .feature-tile {
@@ -254,7 +256,7 @@ ul {
 }
 
 .work-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -469,4 +471,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--acent-color);
+}
+
+.media {
+  display: flex;
 }

@@ -211,12 +211,15 @@ ul {
   padding: 120px 0;
 }
 
-.future-link {
+.future-block {
   background: var(--lith-color);
   border-radius: 4px;
+  width: 265px;
+  height: 122px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .feature-list {
@@ -226,11 +229,11 @@ ul {
 
 .feature-item {
   width: 264px;
-
 }
 
 .future-icon {
-  padding: 24px 100px;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature-tile {
@@ -365,12 +368,15 @@ ul {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
+
 .customers-link {
   width: 100%;
   height: 100%;
 }
 
-.company-icom {
+.customers-item:hover,
+.customers-item:focus {
+  border-color: var(--click-color);
 }
 
 .portfolio {
@@ -473,6 +479,26 @@ ul {
   color: var(--acent-color);
 }
 
-.media {
+.media-soc {
   display: flex;
+  gap: 24px;
+}
+
+.soc-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+  margin-bottom: 16px;
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }

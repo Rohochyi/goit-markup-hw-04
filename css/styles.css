@@ -346,7 +346,7 @@ ul {
 
 .soc-link:hover,
 .soc-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--click-color);
 }
 
 .customers {
